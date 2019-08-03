@@ -81,3 +81,16 @@ x1 = (-b - delta ** 0.5 / (2 * a))
 x2 = (-b + delta ** 0.5 / (2 * a))
 
 print("First root: {}\nSecond root: {}\n".format(x1,x2))
+
+#Simple Login Process
+
+sysUserName = "burak"
+sysPassword = "123"
+
+userName = input("Please enter your username")
+password = input("Please enter your password")
+
+if (sysUserName == userName and sysPassword == password):
+    print("Welcome Major...!")
+else:
+    print("Your name or password is wrong..!")
