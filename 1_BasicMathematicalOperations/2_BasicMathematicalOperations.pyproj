@@ -2,15 +2,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>afff0e81-2380-4192-b3c0-bb6b6b31dc02</ProjectGuid>
-    <ProjectHome>.</ProjectHome>
-    <StartupFile>PythonApplication.Intro.py</StartupFile>
+    <ProjectGuid>37929d47-ad6d-4910-bf7b-914ae5652435</ProjectGuid>
+    <ProjectHome>
+    </ProjectHome>
+    <StartupFile>_2_BasicMathematicalOperations.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>PythonApplication.Intro</Name>
-    <RootNamespace>PythonApplication.Intro</RootNamespace>
+    <Name>2_BasicMathematicalOperations</Name>
+    <RootNamespace>1_BasicMathematicalOperations</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,7 +22,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="PythonApplication.Intro.py" />
+    <Compile Include="_2_BasicMathematicalOperations.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
