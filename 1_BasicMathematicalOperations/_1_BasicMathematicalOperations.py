@@ -1,4 +1,18 @@
 
+#Simple Math
+
+x = 1
+y=3
+z=5
+
+x+y+z
+x-y
+x*y
+x/z
+
+print("-------------------------------------------")
+
+
 #Calculate the Circumcircle of a triangle given the three sides
 
 sideA = 3 # define a variable name is "sideA" than assigned into it a value of 3
@@ -33,9 +47,21 @@ area= smallEdge * longEdge
 
 print("Area of Retangle: ", area)
 
-
 print("-------------------------------------------")
 
+
+#Exponent Calculator
+
+print(2**4)
+
+base = int(input("Please type a number: "))
+exponent = int(input("Please type a number: "))
+
+result = base**exponent
+
+print(result)
+
+print("-------------------------------------------")
 
 #Switch the value of two variables
 
@@ -46,6 +72,11 @@ a,b=b,a
 
 print(a)
 print(b)
+
+print("-------------------------------------------")
+
+
+
 
 
 
