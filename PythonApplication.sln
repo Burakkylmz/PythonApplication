@@ -3,14 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28922.388
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "1_PythonApplication.Intro", "PythonApplication.Intro\1_PythonApplication.Intro.pyproj", "{AFFF0E81-2380-4192-B3C0-BB6B6B31DC02}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonApplication.Intro", "PythonApplication.Intro\PythonApplication.Intro.pyproj", "{AFFF0E81-2380-4192-B3C0-BB6B6B31DC02}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BD146907-7093-4137-882D-20A7D8887DF7}"
 	ProjectSection(SolutionItems) = preProject
 		ReadMe.txt = ReadMe.txt
 	EndProjectSection
 EndProject
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "2_BasicMathematicalOperations", "1_BasicMathematicalOperations\2_BasicMathematicalOperations.pyproj", "{37929D47-AD6D-4910-BF7B-914AE5652435}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "1_BasicMathematicalOperations", "1_BasicMathematicalOperations\1_BasicMathematicalOperations.pyproj", "{37929D47-AD6D-4910-BF7B-914AE5652435}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

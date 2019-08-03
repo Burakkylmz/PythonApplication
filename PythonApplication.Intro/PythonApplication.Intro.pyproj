@@ -10,7 +10,7 @@
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>1_PythonApplication.Intro</Name>
+    <Name>PythonApplication.Intro</Name>
     <RootNamespace>PythonApplication.Intro</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">

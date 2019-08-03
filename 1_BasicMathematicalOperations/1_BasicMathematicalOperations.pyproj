@@ -5,12 +5,12 @@
     <ProjectGuid>37929d47-ad6d-4910-bf7b-914ae5652435</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>_2_BasicMathematicalOperations.py</StartupFile>
+    <StartupFile>_1_BasicMathematicalOperations.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>2_BasicMathematicalOperations</Name>
+    <Name>1_BasicMathematicalOperations</Name>
     <RootNamespace>1_BasicMathematicalOperations</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
@@ -22,7 +22,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="_2_BasicMathematicalOperations.py" />
+    <Compile Include="_1_BasicMathematicalOperations.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
