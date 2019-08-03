@@ -12,7 +12,6 @@ x/z
 
 print("-------------------------------------------")
 
-
 #Calculate the Circumcircle of a triangle given the three sides
 
 sideA = 3 # define a variable name is "sideA" than assigned into it a value of 3
@@ -62,6 +61,18 @@ result = base**exponent
 print(result)
 
 print("-------------------------------------------")
+
+#Calculate area and volume of sphere
+
+PI = 3.14
+
+radius = int(input("Please type the radies of sphere: "))
+
+area = 4 * PI * radius * radius
+volume = (4/3) * PI * r * r * r
+
+print("Area of sphere: ", area)
+print("Area of sphere: ", volume)
 
 #Switch the value of two variables
 
