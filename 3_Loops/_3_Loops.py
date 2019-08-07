@@ -1,4 +1,24 @@
 
+#############
+#While Loops#
+#############
+
+print("1.Example")
+i = 0
+while i < 6:
+    print(i)
+    i += 1
+
+print("--------------")
+
+print("2.Example")
+number = [1,2,3,4,5]
+index = 0
+while (index < len(number)):
+    print(number[index])
+    index++
+
+
 """
 in operator : The 'in' operator is used to check if a value exists in a sequence or not. Evaluates to true if it finds a variable in the specified sequence and false otherwise.
 
