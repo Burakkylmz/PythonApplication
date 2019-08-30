@@ -10,6 +10,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "1_IntroductiontoPythonProgramming", "1_IntroductiontoPythonProgramming\1_IntroductiontoPythonProgramming.pyproj", "{4E263E6A-63F1-41E9-83FD-75C07D715119}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "2_TypesOfObjects", "2_TypesOfObjects\2_TypesOfObjects.pyproj", "{E36E02B8-797D-4F48-A241-6E5649986DFB}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "3_ExpressionAndVariables", "3_ExpressionAndVariables\3_ExpressionAndVariables.pyproj", "{7796C28C-9E8A-40F5-8FAB-3C24029CA012}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "4_Tuples", "4_Tuples\4_Tuples.pyproj", "{5B5467D1-0150-482E-BC11-6C67656CD420}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,6 +24,12 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{4E263E6A-63F1-41E9-83FD-75C07D715119}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4E263E6A-63F1-41E9-83FD-75C07D715119}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E36E02B8-797D-4F48-A241-6E5649986DFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E36E02B8-797D-4F48-A241-6E5649986DFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7796C28C-9E8A-40F5-8FAB-3C24029CA012}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7796C28C-9E8A-40F5-8FAB-3C24029CA012}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B5467D1-0150-482E-BC11-6C67656CD420}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B5467D1-0150-482E-BC11-6C67656CD420}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
