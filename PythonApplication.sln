@@ -24,6 +24,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "7_Dictionaries", "7_Diction
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "8_Conditions", "8_Conditions\8_Conditions.pyproj", "{E7CCA5A2-7019-439E-A67B-D0ABE8F9FA93}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "9_Loops", "9_Loops\9_Loops.pyproj", "{8AFCF250-9EEA-44DD-A12C-DCFAB3B95D38}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -46,6 +48,8 @@ Global
 		{C52AE4AD-C5D3-41AF-8133-73780B2A6BAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E7CCA5A2-7019-439E-A67B-D0ABE8F9FA93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E7CCA5A2-7019-439E-A67B-D0ABE8F9FA93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AFCF250-9EEA-44DD-A12C-DCFAB3B95D38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AFCF250-9EEA-44DD-A12C-DCFAB3B95D38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
