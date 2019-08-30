@@ -16,6 +16,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "3_ExpressionAndVariables", 
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "4_Tuples", "4_Tuples\4_Tuples.pyproj", "{5B5467D1-0150-482E-BC11-6C67656CD420}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "5_List", "5_List\5_List.pyproj", "{DAE40C39-BCC9-4582-93BF-815FE377F13F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,6 +32,8 @@ Global
 		{7796C28C-9E8A-40F5-8FAB-3C24029CA012}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B5467D1-0150-482E-BC11-6C67656CD420}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5B5467D1-0150-482E-BC11-6C67656CD420}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAE40C39-BCC9-4582-93BF-815FE377F13F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAE40C39-BCC9-4582-93BF-815FE377F13F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
