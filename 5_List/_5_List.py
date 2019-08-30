@@ -45,3 +45,17 @@ print('Değişiklikten Sonra:', A)
 #Bir string'i split kullanarak listeye dönüştürebiliriz. Örneğin, split yöntemi, boşlukla ayrılmış her karakter grubunu listedeki bir öğeye çevirir:
 
 'Mike Tyson'.split()# String'i böl, varsayılan boşluk
+
+# Sitring'i virgülle bölün
+'A, B, C, D' .split (',') #output: ['A', 'B', 'C', 'D']
+
+#Listeyi kopyalama(referanslara göre kopyalama)
+A = ["Mike Tyson", "June 30", 1966]
+B = A
+print('A:', A)
+print('B:', B)
+"""
+output
+A: ['hard rock', 10, 1.2]
+B: ['hard rock', 10, 1.2]
+"""
