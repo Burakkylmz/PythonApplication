@@ -3,34 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28922.388
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonApplication.Intro", "PythonApplication.Intro\PythonApplication.Intro.pyproj", "{AFFF0E81-2380-4192-B3C0-BB6B6B31DC02}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BD146907-7093-4137-882D-20A7D8887DF7}"
 	ProjectSection(SolutionItems) = preProject
 		ReadMe.txt = ReadMe.txt
 	EndProjectSection
 EndProject
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "1_BasicMathematicalOperations", "1_BasicMathematicalOperations\1_BasicMathematicalOperations.pyproj", "{37929D47-AD6D-4910-BF7B-914AE5652435}"
-EndProject
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "2_DecisionStructures", "2_DecisionStructures\2_DecisionStructures.pyproj", "{43AA7C2C-6492-49A4-8FEA-57C3BA2B61CB}"
-EndProject
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "3_Loops", "3_Loops\3_Loops.pyproj", "{D9CA8599-900B-4E15-9BB1-0AB26F49EE5C}"
-EndProject
 Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AFFF0E81-2380-4192-B3C0-BB6B6B31DC02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AFFF0E81-2380-4192-B3C0-BB6B6B31DC02}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{37929D47-AD6D-4910-BF7B-914AE5652435}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{37929D47-AD6D-4910-BF7B-914AE5652435}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{43AA7C2C-6492-49A4-8FEA-57C3BA2B61CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{43AA7C2C-6492-49A4-8FEA-57C3BA2B61CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D9CA8599-900B-4E15-9BB1-0AB26F49EE5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D9CA8599-900B-4E15-9BB1-0AB26F49EE5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
