@@ -60,9 +60,8 @@ student1 = Student("B1450.03300","Burak","Yılmaz")
 student2 = Student("B1278.04445","Can","Oğuz")
 
 student1.firstName
-'Burak'
 student2.firstName
-'Can'
+
 
 #OOP - Sınıf içinde method tanımlama
 class SoftwareDeveloper():
@@ -107,4 +106,79 @@ class SoftwareDeveloper():
 developer = SoftwareDeveloper("Burak","Yılmaz",["C#","Python","C++"])
 developer.AddLanguage("JavaScirpt")
 
+#Inheritance(Kalıtım)
+class Employee():
+    def __init__(self,firstName,lastName,salary,departmant):
+        self.firstName = firstName
+        self.lastName = lastName
+        self.salary = salary
+        self.departmant = departmant
+        
+    def ShowInformation(self):
+        print("First Name: {}\nLast Name: {}\nSalary: {}\nDepartmant: {}\n" .format(self.firstName,self.lastName,self.salary,self.departmant))
+        
+    def ChangeDepartmant(self,newDepartmant):
+        self.departmant = newDepartmant
+
+class Manager(Employee):#manager class'ı Employee class'ından kalıtım alıyor
+    pass # bir yapıyı daha sonra tanımlayacaksanız bu deyimi kullanbilirsiniz
+
+manager = Manager("Burak","Yılmaz",10.000,"ARGE")
+manager.ShowInformation()
+
+manager.ChangeDepartmant("IT")
+manager.ShowInformation()
+
+class Manager(Employee):
+    def AdditionSalary(self,ammount):
+        self.salary += ammount
+manager = Manager("Can","Oğuz",15.000,"CEO")
+manager.AdditionSalary(10.000)
+manager.ShowInformation()
+
+#Overriding
+class Manager(Employee):
+    def __init__(self,firstName,lastName,salary,departmant,personInDepartmant):
+        self.firstName = firstName
+        self.lastName = lastName
+        self.salary = salary
+        self.departmant = departmant
+        self.personInDepartmant = personInDepartmant
+        
+    def ShowInformation(self):
+        print("First Name: {}\nLast Name: {}\nSalary: {}\nDepartmant: {}\nNumber of Person In Departmant: {}" .format(self.firstName,self.lastName,self.salary,self.departmant,self.personInDepartmant))
+    
+    def AdditionSalary(self,ammount):
+        self.salary += ammount
+
+manager = Manager("İpek","Yılmaz",10.000,"Sale",20)
+manager.ShowInformation()
+
+class Employee():
+    def __init__(self,firstName,lastName,salary,departmant):
+        self.firstName = firstName
+        self.lastName = lastName
+        self.salary = salary
+        self.departmant = departmant
+        
+    def ShowInformation(self):
+        print("First Name: {}\nLast Name: {}\nSalary: {}\nDepartmant: {}\n" .format(self.firstName,self.lastName,self.salary,self.departmant))
+        
+    def ChangeDepartmant(self,newDepartmant):
+        self.departmant = newDepartmant
+
+class Manager(Employee):
+    def __init__(self,firstName,lastName,salary,departmant,personInDepartmant):
+        
+        super().__init__(firstName,lastName,salary,departmant)
+        
+        self.personInDepartmant = personInDepartmant
+        
+    def ShowInformation(self):
+        print("First Name: {}\nLast Name: {}\nSalary: {}\nDepartmant: {}\nNumber of Person In Departmant: {}" .format(self.firstName,self.lastName,self.salary,self.departmant,self.personInDepartmant))
+    
+    def AdditionSalary(self,ammount):
+        self.salary += ammount
+manager = Manager("Burak","Yılmaz",3000,"IT",5)
+manager.ShowInformation()
 
