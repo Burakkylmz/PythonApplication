@@ -1,7 +1,8 @@
 
 #Sözlükler
 #Sözlükler nedir?
-#Sözlük, anahtarlardan ve değerlerden oluşur. Bir sözlüğü bir listeyle karşılaştırmak faydalı olacaktır. Liste gibi sayısal dizinlerin yerine sözlüklerde anahtarlar bulunur. Bu tuşlar sözlükteki değerlere erişmek için kullanılan tuşlardır.
+#Sözlük, anahtarlardan ve değerlerden oluşur. Bir sözlüğü bir listeyle karşılaştırmak faydalı olacaktır. Liste gibi sayısal dizinlerin yerine sözlüklerde anahtarlar bulunur. 
+# Bu tuşlar sözlükteki değerlere erişmek için kullanılan tuşlardır.
 
 # Sözlüğü oluştur
 Dict = {"key1": 1, "key2": "2", "key3": [3, 3, 3], "key4": (4, 4, 4), ('key5'): 5, ( 0, 1): 6}
